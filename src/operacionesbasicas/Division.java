@@ -5,6 +5,8 @@
  */
 package operacionesbasicas;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author JeffBonilla
@@ -16,6 +18,7 @@ public class Division {
        div= a/b;
        System.out.println("la division es : "+div);
        } else{
+           JOptionPane.showMessageDialog(null,"no puede dividir para cero");
            System.out.println("no puede dividir para cero");
            div=0;
            
