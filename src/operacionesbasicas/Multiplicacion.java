@@ -11,10 +11,9 @@ package operacionesbasicas;
  */
 public class Multiplicacion {
 
-    float a, b, res;
-
-    float multiplicar(float a, float b) {
-        res = a * b;
-        return res;
+    public static float Multiplicar(float a, float b) {
+        float m;
+        m = a * b;
+        return m;
     }
 }
