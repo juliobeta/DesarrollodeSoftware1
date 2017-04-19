@@ -12,4 +12,7 @@ package operacionesbasicas;
  */
 public class BETANCOURTH {
     //HOLA SOY BETANCOURTH
+    public static void main(){
+    System.out.println("hola soy deisy");
+    }
 }
