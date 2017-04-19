@@ -11,11 +11,6 @@ package operacionesbasicas;
  */
 public class CResta {
 
-
-    public static void main(String[] args) {
-        CResta(5,2);
-    }
-   
     
 
   public static float  CResta(float a, float b){

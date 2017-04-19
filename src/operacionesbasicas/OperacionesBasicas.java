@@ -132,7 +132,7 @@ public class OperacionesBasicas extends javax.swing.JFrame {
 
     private void btnRestaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestaActionPerformed
         // TODO add your handling code here:
-        float r = Resta.CResta(Float.valueOf(txtNum1.getText()), Float.valueOf(txtNum2.getText()));
+        float r = CResta.CResta(Float.valueOf(txtNum1.getText()), Float.valueOf(txtNum2.getText()));
         txtRespuesta.setText("");
         txtRespuesta.setText(String.valueOf(r));
     }//GEN-LAST:event_btnRestaActionPerformed
